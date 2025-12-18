@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Untuk Aidut</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="notif" src="notif.mp3"></audio>
+
+<!-- 📱 PHONE FRAME -->
+<div class="phone-frame">
+  <div class="chat-container" id="container">
+    <div class="wa-header">Shade</div>
+
+    <div class="chat" id="chat">
+      <div class="bubble left">maaf ya dut aku buat km betmut</div>
+    </div>
+
+    <div class="controls">
+      <button class="btn-send" onclick="sendChat()">Balas 💬</button>
+      <button class="btn-gift" id="giftBtn" onclick="openGift()" disabled>
+        🎁 Buka Kado
+      </button>
+      <p class="hint">balas sampai selesai ya…</p>
+    </div>
+  </div>
+</div>
+
+<!-- 🎬 CINEMATIC -->
+<div id="blackout">
+  <canvas id="fireCanvas"></canvas>
+  <canvas id="loveCanvas"></canvas>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
